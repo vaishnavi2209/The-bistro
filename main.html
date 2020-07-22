@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>The Bistro</title>
+
+    <!-- /**fonts**/ -->
+	<link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@700&display=swap" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@562;700&display=swap" rel="stylesheet">
+	
+	<!-- bootstrap css only -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+
+  </head>
+  <body>
+	<header>
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container">
+      	<div class="navbar-header">
+      		 <div class="navbar-brand">
+      		 	<a href="main.html"><h1>The Bistro</h1></a>
+      		 </div>
+      		 <button type="button" id="navbarToggle" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+      		 	<span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+
+           <!--  Toggle -->
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+           <ul id="nav-list" class="nav navbar-nav navbar-right">
+           	<li>
+              <a href="menu-categories.html">
+                <span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs">MENU</a>
+            </li>
+            <li>
+              <a href="about.html">
+                <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs">ABOUT</a>
+            </li>
+             <li id="phone" class="hidden-xs">
+             	<a href="tel:410-234-2567">
+             		<span class="glyphicon glyphicon-phone-alt">410-234-2567</span>
+			    </a>
+		        <div>*For the delivery</div>
+		      </li>
+		  </ul>
+		</div>
+        </div>
+    </nav>
+</header>
+
+     <!-- for delivery -->
+<div id="call-btn" class="visible-xs">
+    <a class="btn" href="tel:410-602-5008">
+    <span class="glyphicon glyphicon-earphone"></span>
+    410-602-5008
+    </a>
+  </div>
+  <div id="xs-deliver" class="text-center visible-xs">
+  	* For the Delivery
+  </div>
+
+            <!-- jumbotron -->
+  <div id="main-content" class="container">
+    <div class="jumbotron">
+      <img src="image/jumbo_small.jpg" alt="Picture of restaurant" class="img-responsive visible-xs">
+    </div>
+
+             <!-- menu -->
+    <div id="home-tiles" class="row">
+      <div class="col-md-4 col-sm-6 col-xs-12">
+        <a href="menu-categories.html"><div id="menu-tile"><span>menu</span></div></a>
+      </div>
+
+             <!-- special -->
+      <div class="col-md-4 col-sm-6 col-xs-12">
+        <a href="special.html"><div id="specials-tile"><span>specials</span></div></a>
+      </div>
+
+         <!-- location -->
+      <div class="col-md-4 col-sm-12 col-xs-12">
+        <a href="https://goo.gl/maps/UFgETBQaT21kE"target="_blank">
+          <div id="map-tile">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1881960.3534749835!2d79.40778747631205!3d22.88739716911807!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3981ae0535fc1d6f%3A0xccd0830ea7b9b0e1!2sThe%20Melting%20Pot%20Bistro!5e0!3m2!1sen!2sin!4v1594569877099!5m2!1sen!2sin" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+            <span>map</span>
+          </div>
+          </a>
+      </div>
+    </div>
+  </div>
+  
+<footer class="panel-footer">
+    <div class="container">
+        <div class="row">
+            <section id="hours" class="col-sm-4">
+                <span>Hours:</span><br>
+                Sat-thur:11:15am-10:00pm<br>
+                Fri:11:15am-2:30pm<br>
+                Sunday Closed
+                <hr class="visible-xs">
+            </section>
+            
+            <section id="address" class="col-sm-4">
+                <span>Address:</span><br>
+                1378, Paras Building, Near Bus Stand, Wright Town, Jabalpur, Madhya Pradesh 482002<br>
+                <p>*Delivery area within 3-4 miles,with minimum order of Rs.150 + Rs.100 delivery charges.</p>
+                <hr class="visible-xs">
+            </section>
+        </div>
+    </div>
+</footer>
+              
+<!-- bootstrap JS and jQuery -->
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+ <script src="ajax-utils.js"></script>
+ <script src="js/script.js"></script> 
+   
+
+</body>
+</html>

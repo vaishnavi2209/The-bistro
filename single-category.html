@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Bistro\Menu Info</title>
+
+    <!-- /**fonts**/ -->
+	<link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@700&display=swap" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@562;700&display=swap" rel="stylesheet">
+	
+	<!-- bootstrap css only -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+	<header>
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container">
+      	<div class="navbar-header">
+      		 <div class="navbar-brand">
+      		 	<a href="main.html"><h1>The Bistro</h1></a>
+      		 </div>
+      		 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+      		 	<span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+
+           <!--  Toggle -->
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+           <ul id="nav-list" class="nav navbar-nav navbar-right">
+           	<li  class="active">
+              <a href="#home-tiles">
+                <span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs">MENU</a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs">ABOUT</a>
+            </li>
+             <li id="phone" class="hidden-xs">
+             	<a href="tel:410-234-2567">
+             		<span class="glyphicon glyphicon-phone-alt">410-234-2567</span>
+			    </a>
+		        <div>*For the delivery</div>
+		      </li>
+		  </ul>
+		</div>
+        </div>
+    </nav>
+</header>
+
+     <!-- for delivery -->
+<div id="call-btn" class="visible-xs">
+    <a class="btn" href="tel:410-602-5008">
+    <span class="glyphicon glyphicon-earphone"></span>
+    410-602-5008
+    </a>
+  </div>
+  <div id="xs-deliver" class="text-center visible-xs">
+  	* For the Delivery
+  </div>
+
+            <!-- jumbotron -->
+  <div id="main-content" class="container">
+      <h2 id="menu-categories-title" class="text-center">
+          Yummy Menu
+      </h2>
+      <div class="text-center"> Taste on your tips !</div>
+      
+      <section class="row">
+          <div class="menu-item-tile col-md-6">
+              <div class="row">
+                  <div class="col-sm-5">
+                      <div class="menu-item-photo">
+                          <div>D01</div>
+                          <img class="img-responsive" width="200" height="200" src="image/pasta.jpg" alt="Item">
+                      </div>
+                      <div class="menu-item-price">Rs.240<span> +</span>Rs.50<span>(delivery charge)</span></div>
+                  </div>
+                  
+                  <div class="menu-item-description col-sm-7">
+                      <h3 class="menu-item-title">Twister Pasta</h3>
+                      <p class="menu-item-details">
+                              Spiral pasta with red sauce 
+                      </p>
+                  </div>
+              </div>
+              <hr class="visible-xs">
+          </div>
+          
+          <div class="menu-item-tile col-md-6">
+              <div class="row">
+                  <div class="col-sm-5">
+                      <div class="menu-item-photo">
+                          <div>D02</div>
+                          <img class="img-responsive" width="200" height="200" src="image/pancakes.jpg" alt="Item">
+                      </div>
+                      <div class="menu-item-price">Rs.180<span> +</span>Rs.50<span>(delivery charge)</span>
+                      </div>
+                  </div>
+                  
+                  <div class="menu-item-description col-sm-7">
+                      <h3 class="menu-item-title">Pancakes</h3>
+                      <p class="menu-item-details">
+                              tasty Pancakes with blueberries bathing in honey 
+                      </p>
+                  </div>
+              </div>
+              <hr class="visible-xs">
+          </div>
+          
+          <div class="clearfix visible-md-block visible-lg-block"></div>
+          
+          <div class="menu-item-tile col-md-6">
+              <div class="row">
+                  <div class="col-sm-5">
+                      <div class="menu-item-photo">
+                          <div>D03</div>
+                          <img class="img-responsive" width="200" height="200" src="image/noodle.jpg" alt="Item">
+                      </div>
+                      <div class="menu-item-price">Rs.240<span> +</span>Rs.50<span>(delivery charges)</span></div>
+                  </div>
+                  
+                  <div class="menu-item-description col-sm-7">
+                      <h3 class="menu-item-title">Vegioodles</h3>
+                      <p class="menu-item-details">
+                              Noodles with healthy veggies  !!
+                      </p>
+                  </div>
+              </div>
+              <hr class="visible-xs">
+          </div>
+          
+          <div class="menu-item-tile col-md-6">
+              <div class="row">
+                  <div class="col-sm-5">
+                      <div class="menu-item-photo">
+                          <div>D04</div>
+                          <img class="img-responsive" width="200" height="200" src="image/tacos.jpg" alt="Item">
+                      </div>
+                      <div class="menu-item-price">Rs.240<span> + </span>Rs.50<span>(delivery charges)</span></div>
+                  </div>
+                  
+                  <div class="menu-item-description col-sm-7">
+                      <h3 class="menu-item-title">Tacos</h3>
+                      <p class="menu-item-details">
+                              Classy tacos with onion,tomato &amp; garlic filings !!
+                      </p>
+                  </div>
+              </div>
+              <hr class="visible-xs">
+          </div>
+          
+          <div class="clearfix visible-md-block visible-lg-block"></div>
+          
+          <div class="menu-item-tile col-md-6">
+              <div class="row">
+                  <div class="col-sm-5">
+                      <div class="menu-item-photo">
+                          <div>D05</div>
+                          <img class="img-responsive" width="200" height="200" src="image/corn.jpg" alt="Item">
+                      </div>
+                      <div class="menu-item-price">Rs.240<span> + </span>Rs.50<span>(delivery charges)</span></div>
+                  </div>
+                  
+                  <div class="menu-item-description col-sm-7">
+                      <h3 class="menu-item-title">Corn Curry</h3>
+                      <p class="menu-item-details">
+                              Spicy indian style Corn curry !!
+                      </p>
+                  </div>
+              </div>
+              <hr class="visible-xs">
+          </div>
+          
+          <div class="menu-item-tile col-md-6">
+              <div class="row">
+                  <div class="col-sm-5">
+                      <div class="menu-item-photo">
+                          <div>D06</div>
+                          <img class="img-responsive" width="200" height="200" src="image/dumpling.jpg" alt="Item">
+                      </div>
+                      <div class="menu-item-price">Rs.200<span> + </span>Rs.50<span>(delivery charges)</span></div>
+                  </div>
+                  
+                  <div class="menu-item-description col-sm-7">
+                      <h3 class="menu-item-title">Pea Dumplings</h3>
+                      <p class="menu-item-details">
+                              Hot sizzling Pea stuffing dumpling  !!
+                      </p>
+                  </div>
+              </div>
+              <hr class="visible-xs">
+          </div>
+          
+          <div class="clearfix visible-md-block visible-lg-block"></div>
+          
+          <div class="menu-item-tile col-md-6">
+              <div class="row">
+                  <div class="col-sm-5">
+                      <div class="menu-item-photo">
+                          <div>D07</div>
+                          <img class="img-responsive" width="200" height="200" src="image/pizza.jpg" alt="Item">
+                      </div>
+                      <div class="menu-item-price">Rs.240<span> + </span>Rs.100<span>(delivery charges)</span></div>
+                  </div>
+                  
+                  <div class="menu-item-description col-sm-7">
+                      <h3 class="menu-item-title">Indian Topping Pizza</h3>
+                      <p class="menu-item-details">
+                             With Indian style toping !!
+                      </p>
+                  </div>
+              </div>
+              <hr class="visible-xs">
+          </div>
+          
+          <div class="menu-item-tile col-md-6">
+              <div class="row">
+                  <div class="col-sm-5">
+                      <div class="menu-item-photo">
+                          <div>D08</div>
+                          <img class="img-responsive" width="200" height="200" src="image/rice.jpg" alt="Item">
+                      </div>
+                      <div class="menu-item-price">Rs.270<span> + </span>Rs.100<span>(delivery charges)</span></div>
+                  </div>
+                  
+                  <div class="menu-item-description col-sm-7">
+                      <h3 class="menu-item-title">Capsicum Rice</h3>
+                      <p class="menu-item-details">
+                             Capsicum Stuffed with fried hot rice !!
+                      </p>
+                  </div>
+              </div>
+              <hr class="visible-xs">
+          </div>
+          
+          <div class="menu-item-tile col-md-6">
+              <div class="row">
+                  <div class="col-sm-5">
+                      <div class="menu-item-photo">
+                          <div>D09</div>
+                          <img class="img-responsive" width="200" height="200" src="image/coco.jpg" alt="Item">
+                      </div>
+                      <div class="menu-item-price">Rs.180<span> + </span>Rs.100<span>(delivery charges)</span></div>
+                  </div>
+                  
+                  <div class="menu-item-description col-sm-7">
+                      <h3 class="menu-item-title">Cocothie</h3>
+                      <p class="menu-item-details">
+                              Coconut smoothie !!
+                      </p>
+                  </div>
+              </div>
+              <hr class="visible-xs">
+          </div>
+          
+          <div class="menu-item-tile col-md-6">
+              <div class="row">
+                  <div class="col-sm-5">
+                      <div class="menu-item-photo">
+                          <div>D010</div>
+                          <img class="img-responsive" width="200" height="200" src="image/smoothie.jpg" alt="Item">
+                      </div>
+                      <div class="menu-item-price">Rs.170<span> + </span>Rs.80<span>(delivery charges)</span></div>
+                  </div>
+                  
+                  <div class="menu-item-description col-sm-7">
+                      <h3 class="menu-item-title">Chocothie</h3>
+                      <p class="menu-item-details">
+                              your fav choco smoothie !!
+                      </p>
+                  </div>
+              </div>
+              <hr class="visible-xs">
+          </div>
+          
+          <div class="menu-item-tile col-md-6">
+              <div class="row">
+                  <div class="col-sm-5">
+                      <div class="menu-item-photo">
+                          <div>D011</div>
+                          <img class="img-responsive" width="200" height="200" src="image/latte.jpg" alt="Item">
+                      </div>
+                      <div class="menu-item-price">Rs.180<span> + </span>Rs.50<span>(delivery charges)</span></div>
+                  </div>
+                  
+                  <div class="menu-item-description col-sm-7">
+                      <h3 class="menu-item-title">Cookie Latte</h3>
+                      <p class="menu-item-details">
+                             Coffee latte with cookie topping!!
+                      </p>
+                  </div>
+              </div>
+              <hr class="visible-xs">
+          </div>
+          
+          <div class="menu-item-tile col-md-6">
+              <div class="row">
+                  <div class="col-sm-5">
+                      <div class="menu-item-photo">
+                          <div>D012</div>
+                          <img class="img-responsive" width="200" height="200" src="image/kiwi.jpg" alt="Item">
+                      </div>
+                      <div class="menu-item-price">Rs.150<span> + </span>Rs.100<span>(delivery charges)</span></div>
+                  </div>
+                  
+                  <div class="menu-item-description col-sm-7">
+                      <h3 class="menu-item-title">Kiwithie</h3>
+                      <p class="menu-item-details">
+                              Healthy kiwi smoothie !!
+                      </p>
+                  </div>
+              </div>
+              <hr class="visible-xs">
+          </div>
+          
+          
+      </section>
+</div>
+
+  <footer class="panel-footer">
+    <div class="container">
+        <div class="row">
+            <section id="hours" class="col-sm-4">
+                <span>Hours:</span><br>
+                Sat-thur:11:15am-10:00pm<br>
+                Fri:11:15am-2:30pm<br>
+                Sunday Closed
+                <hr class="visible-xs">
+            </section>
+            <section id="address" class="col-sm-4">
+                <span>Address:</span><br>
+                1378, Paras Building, Near Bus Stand, Wright Town, Jabalpur, Madhya Pradesh 482002<br>
+                <p>*Delivery area within 3-4 miles,with minimum order of Rs.150 + Rs.100 delivery charges.</p>
+                <hr class="visible-xs">
+            </section>
+        </div>
+    </div>
+</footer>
+              
+<!-- bootstrap JS and jQuery -->
+   <script src="js/jquery-2.1.4.min.js"></script>
+   <script src="js/bootstrap.min.js"></script>
+	<!-- <script src="js/script.js"></script>
+ -->
+
+</body>
+</html>
